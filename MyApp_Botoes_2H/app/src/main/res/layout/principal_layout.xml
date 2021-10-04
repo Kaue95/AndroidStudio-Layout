@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/Background"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Welcome"
+        android:textColor="@color/textmain"
+        android:textSize="40dp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-30dp"
+        android:gravity="center"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris purus ligula,"
+        android:textColor="@color/textsecond"
+        android:textSize="15dp" />
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/Logo" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Company Name"
+        android:textColor="@color/textmain"
+        android:textSize="30dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-20dp"
+        android:text="Slogan here"
+        android:textColor="@color/textsecond"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button"
+        android:text="Sing in"
+        android:textAllCaps="false"
+        android:textColor="@color/textmain"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button"
+        android:text="Sing up"
+        android:textAllCaps="false"
+        android:textColor="@color/textmain"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text="Sing in with Social Media"
+                android:textColor="@color/textmain"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:textSize="18dp"/>
+        
+       <ImageButton
+           android:layout_width="30dp"
+           android:layout_height="30dp"
+           android:background="@drawable/redesocial"
+           android:backgroundTint="@color/textmain"
+           android:layout_gravity="center"
+
+                
+
+
+</LinearLayout>
