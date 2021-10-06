@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/Background"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/Logo" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/hint_edit"
+        android:drawableRight="@drawable/user"
+        android:gravity="left"
+        android:hint="  User Name"
+        android:includeFontPadding="true"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textColorHint="@color/textmain"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/hint_edit"
+        android:drawableRight="@drawable/chave"
+        android:gravity="left"
+        android:hint="  Password"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textColorHint="@color/textmain"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="22sp"
+        android:layout_marginBottom="10dp"
+        android:text="Remember password"
+        android:textColor="@color/textmain" />
+
+    <TextView
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-35dp"
+        android:text="Rembember password"
+        android:textColor="@color/textmain"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button"
+        android:text="Sing in"
+        android:textAllCaps="false"
+        android:textColor="@color/textmain"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="-40dp"
+        android:text="Forget Password?"
+        android:textColor="@color/textmain"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="80dp"
+        android:text="Don't have account?"
+        android:textColor="@color/textmain"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="5dp"
+        android:text="Sing up"
+        android:textColor="@color/textmain"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="340dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:backgroundTint="@color/textmain"
+
+
+
+
+
+</LinearLayout>
